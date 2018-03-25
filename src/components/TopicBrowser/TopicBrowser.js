@@ -4,6 +4,7 @@ import FilterString from '../Topics/FilterString';
 import Palindrome from '../Topics/Palindrome';
 import Sum from '../Topics/Sum';
 import EvenAndOdd from '../Topics/EvenAndOdd';
+import FizzBuzz from '../Topics/FizzBuzz';
 
 
 class TopicBrowser extends Component{
@@ -14,6 +15,7 @@ class TopicBrowser extends Component{
             <FilterString />
             <Palindrome />
             <Sum />
+            <FizzBuzz />
         </div>
         )
     }
