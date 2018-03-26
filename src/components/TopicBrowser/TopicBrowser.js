@@ -5,6 +5,8 @@ import Palindrome from '../Topics/Palindrome';
 import Sum from '../Topics/Sum';
 import EvenAndOdd from '../Topics/EvenAndOdd';
 import FizzBuzz from '../Topics/FizzBuzz';
+import Clock from '../Topics/Clock'
+import RollDice from '../Topics/RollDice';
 
 
 class TopicBrowser extends Component{
@@ -16,6 +18,8 @@ class TopicBrowser extends Component{
             <Palindrome />
             <Sum />
             <FizzBuzz />
+            <Clock />
+            <RollDice />
         </div>
         )
     }
