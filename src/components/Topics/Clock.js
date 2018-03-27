@@ -23,6 +23,17 @@ class Clock extends Component{
     //     minutes = addZero(minutes);
     //     seconds = addZero(seconds);
     //     return `${hours}:${minutes}:${seconds}`;
+    componentDidMount() {
+        this.intervalID = setInterval(
+          () => this.newTime(),
+          1000
+        );
+      }
+    newTime(){
+        this.setState({
+            time: new Date().toLocaleTimeString(),
+        })
+    }
     render(){
         // setTimeout(() => this.time(), 1000);
         return(
