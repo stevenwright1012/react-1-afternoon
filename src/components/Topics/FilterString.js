@@ -18,7 +18,7 @@ class FilterString extends Component{
     }
 
     filterArray(str){
-        var newArr = this.state.unFilteredArray.filter((val) => val.includes(str));
+        var newArr = this.state.unFilteredArray.filter((val) => val.toLowerCase().includes(str.toLowerCase()));
         this.setState({
             filteredArray: newArr,
         })
