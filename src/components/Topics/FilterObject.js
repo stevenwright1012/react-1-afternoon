@@ -33,7 +33,8 @@ class FilterObject extends Component{
     }
     
     filterArray(arr){
-        var newArr = arr.filter((val) => val[this.state.userInput])
+
+        var newArr = arr.filter((val) => val[this.state.userInput.toLowerCase()])
 
         this.setState({
             filteredArray: newArr,
