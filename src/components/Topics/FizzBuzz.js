@@ -38,7 +38,7 @@ class FizzBuzz extends Component{
         return (
             <div className="puzzleBox filterStringPB">
                 <h4>FizzBuzz</h4>
-                <input  className="inputLine" onChange={(e) => this.updateInput(e.target.value)}/>
+                <input  className="inputLine" onChange={(e) => this.updateInput(e.target.value)} placeholder="Put a number here"/>
                 <button className="confirmationButton" onClick={() => this.fillArr(this.state.userInput)}>Fizz this Buzz</button>
                 <span className="resultsBox">FizzBuzz: {JSON.stringify(this.state.fizzBuzz)}</span>
             </div>

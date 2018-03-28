@@ -30,8 +30,8 @@ class Sum extends Component{
         return (
             <div className="puzzleBox sumPB">
                 <h4>Sum</h4>
-                <input className="inputLine" onChange={(e) => this.updateNum1(e.target.value)}/>
-                <input className="inputLine" onChange={(e) => this.updateNum2(e.target.value)}/>
+                <input className="inputLine" onChange={(e) => this.updateNum1(e.target.value)} placeholder="Number 1"/>
+                <input className="inputLine" onChange={(e) => this.updateNum2(e.target.value)} placeholder="Number 2"/>
                 <button className="confirmationButton" onClick={() => this.sum(this.state.number1, this.state.number2)}>Sum</button>
                 <span className="resultsBox">Sum:{this.state.sum}</span>
             </div>

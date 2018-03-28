@@ -7,6 +7,7 @@ import EvenAndOdd from '../Topics/EvenAndOdd';
 import FizzBuzz from '../Topics/FizzBuzz';
 import Clock from '../Topics/Clock'
 import RollDice from '../Topics/RollDice';
+import CountingVowels from '../Topics/CountingVowels'
 
 
 class TopicBrowser extends Component{
@@ -20,6 +21,7 @@ class TopicBrowser extends Component{
             <FizzBuzz />
             <Clock />
             <RollDice />
+            <CountingVowels />
         </div>
         )
     }

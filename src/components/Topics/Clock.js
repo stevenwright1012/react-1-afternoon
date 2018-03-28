@@ -37,7 +37,7 @@ class Clock extends Component{
     render(){
         // setTimeout(() => this.time(), 1000);
         return(
-            <div className="puzzleBox filterStringPB">
+            <div className="puzzleBox sumPB">
                 <h4>What time is it?</h4>
                 <span className="resultsBox">{this.state.time}</span>
             </div>
